@@ -1,11 +1,12 @@
 import './style.css'
 import typescriptLogo from './typescript.svg';
 import { setupCounter } from './counter';
-// import { charmander } from './bases/03-clases';
-import { charmander } from './bases/04-injection';
 
 // import { age, name } from './bases/01-types';
 // import { bulbasaur, pokemonIds, pokemons } from './bases/02-objects';
+// import { charmander } from './bases/03-clases';
+// import { charmander } from './bases/04-injection';
+import { charmander } from './bases/05-decorators';
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
